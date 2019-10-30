@@ -64,7 +64,7 @@ Router::scope('/', function (RouteBuilder $routes) {
      */
     
     $routes->connect('/', ['controller' => 'Users', 'action' => 'login']);
-    $routes->connect('/fall-back', ['controller' => 'Users', 'action' => 'fallback']);
+    $routes->connect('/fb-callback', ['controller' => 'Users', 'action' => 'fallback']);
     $routes->connect('/policy', ['controller' => 'Policy', 'action' => 'policy']);
 
     //$routes->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
