@@ -1,1 +1,3 @@
-Login Page
+<?php
+	$this->User->facebookLogin();
+?>
