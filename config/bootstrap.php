@@ -202,5 +202,4 @@ Type::build('timestamp')
 //Inflector::rules('uninflected', ['dontinflectme']);
 //Inflector::rules('transliteration', ['/å/' => 'aa']);
 
-Configure::write('Users.config', ['users']);
-Configure::write('Users.Social.login', true); //to enable social login
+

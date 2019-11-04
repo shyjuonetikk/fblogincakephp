@@ -52,6 +52,9 @@ class Application extends BaseApplication
         // Load more plugins here
         // 
         $this->addPlugin('CakeDC/Users');
+        Configure::write('Users.config', ['users']);
+		Configure::write('Users.Social.login', true); //to enable social login
+		
     }
 
     /**
